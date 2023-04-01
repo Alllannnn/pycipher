@@ -10,8 +10,8 @@ from pycipher.atbash import Atbash
 from pycipher.bifid import Bifid as Bifid
 
 
-cipher= input("Enter cipher mech")
-plaintext= input ("Enter plaintext")
+cipher= input("Enter cipher mech: ")
+plaintext= input ("Enter plaintext: ")
 if cipher == "adfgvx":
             ciphertext = ADFGX('ph0qg64mea1yl2nofdxkr3cvs5zw7bj9uti8','HELLO').encipher(plaintext)  
 if cipher== "affine":  
@@ -35,6 +35,7 @@ if cipher== "caesar":
 if cipher== "vigenere":  
             ciphertext = Vigenere('HELLO').encipher(plaintext)     
 
+print (ciphertext)
 
 
 
