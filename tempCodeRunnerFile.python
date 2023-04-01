@@ -1,0 +1,31 @@
+import pycipher
+from pycipher.caesar import Caesar 
+
+ciphertext = Caesar(3).encipher("lesson")     
+print (ciphertext)
+
+from pycipher.atbash import Atbash
+ciphertext = Atbash().encipher("allan")
+print (ciphertext)   }
+
+from pycipher.__int__ import __all__ 
+cipher= input("Enter cipher mech")
+plaintext= input ("Enter plaintext")
+if cipher= "adfgvx":
+            ciphertext = ADFGVX('ph0qg64mea1yl2nofdxkr3cvs5zw7bj9uti8','HELLO').encipher(plaintext)  
+if cipher= "affine":  
+            ciphertext = Affine(a,b).encipher(plaintext)     
+if cipher= "atbash":  
+if cipher= "autokey":  
+if cipher= "beaufort":  
+if cipher= "bfid":  
+if cipher= "enigma":  
+if cipher= "simple substitution":  
+if cipher= "caesar":  
+if cipher= "base":  
+if cipher= "vigenere":  
+
+
+}
+
+
