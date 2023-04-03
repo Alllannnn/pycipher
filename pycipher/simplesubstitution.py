@@ -1,8 +1,4 @@
-'''
-implements simple substitution cipher
-Author: James Lyons 
-Created: 2012-04-28
-'''
+
 
 from pycipher.base import Cipher
 
@@ -15,8 +11,8 @@ class SimpleSubstitution(Cipher):
         ciphertext = AJPCZWRLFBDKOTYUQGENHXMIVS
 
     To convert a plaintext letter into ciphertext, read along the plaintext row until the desired
-    letter is found, then substitute it with the letter below it. For more information see http://www.practicalcryptography.com/ciphers/simple-substitution-cipher/.
-    
+    letter is found, then substitute it with the letter below it. 
+
     :param key: The key, a permutation of the 26 characters of the alphabet.
     """           
     def __init__(self,key='AJPCZWRLFBDKOTYUQGENHXMIVS'):
