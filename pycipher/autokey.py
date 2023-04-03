@@ -1,16 +1,12 @@
-'''
-implements autokey cipher
-Author: James Lyons
-Created: 2012-04-28
-'''
+
 from pycipher.base import Cipher
 
 ####################################################################################
 class Autokey(Cipher):
     """The Autokey Cipher has a key consisting of a word e.g. 'FORTIFICATION'.
     This cipher encrypts a letter according to the Vigenere tableau, the algorithm can be 
-    seen e.g. http://www.practicalcryptography.com/ciphers/classical-era/autokey/
-    
+    seen 
+
     :param key: The keyword, any word or phrase will do. Must consist of alphabetical characters only, no punctuation of numbers.      
     """
     def __init__(self,key='FORTIFICATION'):
