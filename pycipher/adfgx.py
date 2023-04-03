@@ -1,8 +1,4 @@
-'''
-implements ADFGX cipher
-Author: James Lyons
-Created: 2012-04-28
-'''
+
 from pycipher.base import Cipher
 from pycipher.columnartransposition import ColTrans
 from pycipher.polybius import PolybiusSquare
@@ -10,7 +6,6 @@ from pycipher.polybius import PolybiusSquare
 ####################################################################################
 class ADFGX(Cipher):
     """The ADFGX Cipher has a key consisting of a 5x5 key square and a word e.g. 'GERMAN'.
-    The algorithm is described here: http://www.practicalcryptography.com/ciphers/classical-era/adfgvx/
     The key square consists of the letters A-Z with J omitted (25 characters total). 
 
     :param key: The keysquare, as a 25 character string.
